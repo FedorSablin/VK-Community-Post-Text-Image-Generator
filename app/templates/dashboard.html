@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Панель управления{% endblock %}
+{% block content %}
+<div class="container">
+    <h1 class="text-center mb-4">Добро пожаловать в SMM-эксперт!</h1>
+    
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Генератор постов</h5>
+                    <p class="card-text">Создавайте уникальные посты с помощью ИИ. Выбирайте тон и тему, добавляйте изображения.</p>
+                    <a href="{{ url_for('smm.post_generator') }}" class="btn btn-primary">Создать пост</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Статистика ВКонтакте</h5>
+                    <p class="card-text">Отслеживайте количество подписчиков и активность в вашей группе.</p>
+                    <a href="{{ url_for('smm.vk_stats') }}" class="btn btn-primary">Просмотр статистики</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Настройки</h5>
+                    <p class="card-text">Настройте API ключи и параметры для работы с социальными сетями.</p>
+                    <a href="{{ url_for('smm.settings') }}" class="btn btn-primary">Настройки</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
