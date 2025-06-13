@@ -1,6 +1,6 @@
 #Open AI
-openai_key = "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"
+openai_key = ""
 
 # VK
-vk_api_key = "vk1.a.lZOuFuKaFk8VYrtovL-Y-uy51z0lfFUPXBob-RMv5A4w2yhpAIG4J62QBdkM20DJqp-ADgxpXKbsvn4XZhb1fFnW4B6cJKaUcNMVR8ObqJZwkC_drs7rS9s8SQpALgqS0aMH9wLNMx8ZWe-hQE2auRUZHd5c4ho5-HqTcQRFdKAYVxUAmTAEyLLREi97t-7OQyhiuycuPtOHa-iLXXyZuQ"
-vk_group_id = 170129457
+vk_api_key = ""
+vk_group_id = 
